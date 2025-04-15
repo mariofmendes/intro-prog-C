@@ -1,0 +1,25 @@
+4) Observe o código abaixo:
+
+ #include:<stdiio.h>
+void main(){
+int num;
+printf("Entre com um inteiro:\n");
+scanf("%d", &num);
+num = num + num%4;
+printf("num = %d \n", num);
+}
+
+Após a execução desse trecho, suponha que o usuário tenha entrado com o valor 14.
+
+#include<stdio.h>
+void main(){
+    int num;
+    printf("Entre com um inteiro:\n");
+    scanf("%d", &num);
+    num = num + num%4;
+    printf("num = %d\n", num);
+}
+
+Entre com um inteiro:
+14
+num = 16
