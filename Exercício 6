@@ -7,14 +7,9 @@ F = (C × 9 / 5) + 32
 int main() {
     float cel, fah;
 
-    // Solicita ao usuário que insira a temperatura em Celsius
     printf("Digite a temperatura em graus Celsius: ");
     scanf("%f", &cel);
-
-    // Converte para Fahrenheit usando a fórmula
     fah = (cel * 9 / 5) + 32;
-
-    // Exibe o resultado
     printf("A temperatura em Fahrenheit é: %.2f°F\n", fah);
 
     return 0;
