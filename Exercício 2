@@ -1,0 +1,35 @@
+2) Considere a seguinte estrutura do comando FOR:
+for (ind=20;ind>=8;cont--).
+Quantas vezes a repetição vai ocorrer?
+13 vezes
+
+#include <stdio.h>
+
+int main() {
+    int ind;
+    int contador = 0;
+
+    for (ind = 20; ind >= 8; ind--) {
+        printf("Número %d ind = %d\n", contador + 1, ind);
+        contador++;
+    }
+
+    printf("O código foi xecutado %d vezes.\n", contador);
+
+    return 0;
+}
+
+Número 1 ind = 20
+Número 2 ind = 19
+Número 3 ind = 18
+Número 4 ind = 17
+Número 5 ind = 16
+Número 6 ind = 15
+Número 7 ind = 14
+Número 8 ind = 13
+Número 9 ind = 12
+Número 10 ind = 11
+Número 11 ind = 10
+Número 12 ind = 9
+Número 13 ind = 8
+O código foi xecutado 13 vezes.
