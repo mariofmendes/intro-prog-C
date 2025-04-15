@@ -1,0 +1,16 @@
+6) Escreva um programa em linguagem C que leia uma temperatura em graus Celsius digitada pelo usuário e a converta para graus Fahrenheit.
+Utilize a seguinte fórmula para a conversão:
+F = (C × 9 / 5) + 32
+
+#include <stdio.h>
+
+int main() {
+    float cel, fah;
+
+    printf("Digite a temperatura em graus Celsius: ");
+    scanf("%f", &cel);
+    fah = (cel * 9 / 5) + 32;
+    printf("A temperatura em Fahrenheit é: %.2f°F\n", fah);
+
+    return 0;
+}
