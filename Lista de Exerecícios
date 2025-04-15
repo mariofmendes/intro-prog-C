@@ -1,0 +1,87 @@
+Nome: _____________________________________________________________________
+
+ 
+1) Abaixo temos um código que entra com a idade de 10 alunos e imprimi a quantidade de alunos maiores e menores de idade. Este código possui linhas erradas. Reescreva as linhas corrigindo os erros.
+
+#include<stdio.h>
+#include<stdilib.h>
+
+int main(void){
+	int idade, qtdmaior, qtdmenor;
+	qtdmaior = 0;
+	qtdmenor = 0;
+	for(int i=1, i<11, i++){
+		printf(“Digite a idade do %d aluno”, i);
+		scanf(&idade);
+		if (id>=18){
+			++qtdmaior;
+		
+		else{
+			qtdmenor=qtdmenor+1;
+		}
+	}
+	prinft(“\Na turma temos alunos maiores de idade”, qtdmaior);
+	prinft(“\Na turma temos alunos menores de idade”, qtdmenor);
+	return; 
+}
+2) Considere a seguinte estrutura do comando FOR:
+for (ind=20;ind>=8;cont--).
+Quantas vezes a repetição vai ocorrer?
+3) Descreva a utilização das estruturas de repetição:
+a) while
+b) for
+c) do... while
+4) Observe o código abaixo:
+
+ #include:<stdiio.h>
+void main(){
+int num;
+printf("Entre com um inteiro:\n");
+scanf("%d", &num);
+num = num + num%4;
+printf("num = %d \n", num);
+}
+
+Após a execução desse trecho, suponha que o usuário tenha entrado com o valor 14.
+
+5) Quando que utilizamos a estrutura break?
+
+6) Escreva um programa em linguagem C que leia uma temperatura em graus Celsius digitada pelo usuário e a converta para graus Fahrenheit.
+Utilize a seguinte fórmula para a conversão:
+F = (C × 9 / 5) + 32
+
+7) Escreva um programa em linguagem C que receba dois números inteiros diferentes digitados pelo usuário e imprima o maior deles.
+ 
+
+8) Uma clínica de nutrição deseja automatizar a análise do Índice de Massa Corporal (IMC) de seus pacientes, com o objetivo de obter um relatório do número de pessoas em cada faixa de classificação.
+O IMC (Índice de Massa Corporal) é um critério da Organização Mundial da Saúde (OMS) utilizado para avaliar a condição de peso de uma pessoa adulta. A fórmula para o cálculo é:
+IMC = peso / (altura × altura)
+O programa deverá:
+1.	Solicitar ao usuário a quantidade de pacientes a serem avaliados.
+2.	Para cada paciente, solicitar o peso e a altura.
+3.	Calcular o IMC com base nos dados fornecidos.
+4.	Classificar cada paciente de acordo com a seguinte tabela:
+ 
+
+
+
+9) Desenvolva um programa em linguagem C que realize o controle de desempenho dos alunos de uma turma.
+a.	O programa deve solicitar ao usuário a quantidade de alunos da turma.
+b.	Para cada aluno, devem ser lidas três notas (nota1, nota2, nota3) e a média dos exercícios (ME).
+c.	Com base nesses valores, calcule a Média de Aproveitamento (MA) utilizando a fórmula:
+d.	MA = (nota1 + nota2 × 2 + nota3 × 3 + ME) / 7
+e.	Em seguida, determine o conceito do aluno com base na média de aproveitamento, de acordo com a tabela a seguir:
+
+Média de aproveitamento	Conceito 
+>= 90				A
+ >= 75 e < 90 			B 
+>= 60 e < 75			C 
+>= 40 e < 60 			D 
+< 40 				E
+Ao final imprimir quantos alunos receberam o conceito A, B, C, D e E
+
+
+10) Escreva um programa em linguagem C que leia 10 números inteiros digitados pelo usuário. Ao final da leitura, o programa deve exibir:
+a.	A soma de todos os números digitados.
+b.	A quantidade de números positivos, negativos e iguais a zero.
+
