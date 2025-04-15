@@ -1,0 +1,10 @@
+3) Descreva a utilização das estruturas de repetição:
+a) while
+O while é uma estrutura de repetição que se repetirá até que a sua condição para parada seja efetuada.
+
+b) for
+O for, diferentemente do while, tem um número específico de repetições.
+
+c) do... while
+Tem o objetivo semelhante ao while, com uma estrutura de repetição que irá se repetir até que a condição para parada seja efetuada, 
+enquanto o while testa a sua condição no início, o do... while, testa no final de cada repetição.
