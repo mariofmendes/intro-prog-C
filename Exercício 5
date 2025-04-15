@@ -1,0 +1,4 @@
+5) Quando que utilizamos a estrutura break?
+
+O comando "break" é uma instrução de programação que permite encerrar um laço de repetição antes do término lógico.
+Na linguagem C é usado com o "Switch".
