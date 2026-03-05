@@ -1,23 +1,17 @@
 1️⃣ Soma dos dígitos de vários números
 
 Crie um programa que:
-
 Leia números inteiros do usuário.
-
 Para cada número, calcule a soma dos seus dígitos.
-
 O programa deve parar quando o usuário digitar 0.
 
 Exemplo:
-
 Entrada:
-
 Digite um número: 123
 Digite um número: 45
 Digite um número: 0
 
 Saída:
-
 Soma dos dígitos de 123 = 6
 Soma dos dígitos de 45 = 9
 
